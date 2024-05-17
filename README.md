@@ -39,7 +39,7 @@ The project consists of the following files and folders:
 
 ### Using EJS Templates
 
-The `app.js` file configures Express to use EJS as the view engine and sets the views directory. The index.ejs file demonstrates how to embed JavaScript expressions (<%= %>) and loops (<% %>) within HTML code.
+The `app.js` file configures Express to use EJS as the view engine and sets the views directory. The `index.ejs` file demonstrates how to embed JavaScript expressions (`<%= %>`) and loops (`<% %>`) within HTML code.
 
 ### Dependencies
 
