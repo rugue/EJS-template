@@ -7,20 +7,26 @@ This project demonstrates a basic setup for using EJS (Embedded JavaScript) temp
 Clone this repository or download the files.
 Install the project dependencies:
 
+```bash
 Bash
 npm install
+```
 
 ### Running the application
 
 1. Start the development server:
 
+```bash
 npm start
+```
 
 This will start the server on port 8000. You can access the application in your browser at http://localhost:8000/.
 
 2. For development with automatic restarts on file changes:
 
+```bash
 npm dev
+```
 
 ### Project Structure
 
@@ -33,7 +39,7 @@ The project consists of the following files and folders:
 
 ### Using EJS Templates
 
-The app.js file configures Express to use EJS as the view engine and sets the views directory. The index.ejs file demonstrates how to embed JavaScript expressions (<%= %>) and loops (<% %>) within HTML code.
+The `app.js` file configures Express to use EJS as the view engine and sets the views directory. The index.ejs file demonstrates how to embed JavaScript expressions (<%= %>) and loops (<% %>) within HTML code.
 
 ### Dependencies
 
